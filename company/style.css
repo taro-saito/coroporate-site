@@ -37,7 +37,7 @@
 #contents {
     padding-top: 20px;
 }
-#contents #main h2.company_title {
+#contents #main h2 .company_title {
     margin-bottom: 0px;
 }
 #contents #main h2 {
@@ -47,7 +47,7 @@
     font-weight: bold;
     padding-bottom: 15px;
 }
-}
+
 #contents #main th, #contents #main td {
     padding: 20px 0;
     color: #626262;
@@ -59,6 +59,7 @@
 
 #contents #sidebar .pc_sidemenu {
     display: none;
+}
 }
 
 @media (min-width: 551px){
@@ -118,7 +119,7 @@
    text-decoration: none;
 }
 
-element.style {
+element .style{
     vertical-align: bottom;
     width: 180px;
     height: 300px;
